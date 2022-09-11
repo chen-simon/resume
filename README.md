@@ -12,7 +12,13 @@ simonchen.sc.2002@gmail.com
 6479872580
 ```
 ```
-Toronto, ON
+125 Earl Place
+```
+```
+Toronto
+```
+```
+Ontario
 ```
 ```
 https://www.linkedin.com/in/simon-chen-sc/
