@@ -64,8 +64,6 @@ Universetiy of Toronto - Department of Computer Science
 Software Developer
 ```
 ```
-• Worked on the development team for PythonTA, a static analysis error-checking Python library used by 
-thousands of undergraduates to find and fix common programming errors.
-• Updated documentation and code to more easily be navigated and understood by other developers and to 
-provide a streamlined user experience.
+• Worked on the development team for PythonTA, a static analysis error-checking Python library used by thousands of undergraduates to find and fix common programming errors.
+• Updated documentation and code to more easily be navigated and understood by other developers and to provide a streamlined user experience.
 ```
