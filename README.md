@@ -12,16 +12,16 @@ simonchen.sc.2002@gmail.com
 6479872580
 ```
 ```
-125 Earl Place
+1415 Chalice Cr
 ```
 ```
-Toronto
+Mississauga
 ```
 ```
 Ontario
 ```
 ```
-M4Y1M4
+L5C1S2
 ```
 ```
 https://www.linkedin.com/in/simon-chen-sc/
