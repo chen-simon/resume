@@ -1,0 +1,139 @@
+% HR INFO and company info
+\newcommand{\hrname}{Hiring Manager}
+\newcommand{\hrposition}{}
+\newcommand{\compname}{Ecobee}
+\newcommand{\comploc}{Toronto, Ontario, Canada}
+\newcommand{\hrintro}{Dear Hiring Manager}
+
+% Role info and in-paragraph text replacement
+\newcommand{\posname}{Backend Software Engineer}
+\newcommand{\poslen}{12 months}
+
+% how company improves live
+\newcommand{\complive}{To work directly on \compname\ products, which have been used extensively by myself, friends, and family, would be extremely rewarding, and I would love to utilize all my development knowledge to do so.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 2.0 (September 17, 2021)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage{charter} % Use the Charter font
+
+\usepackage[
+	a4paper, % Paper size
+	top=1in, % Top margin
+	bottom=1in, % Bottom margin
+	left=1in, % Left margin
+	right=1in, % Right margin
+	%showframe % Uncomment to show frames around the margins for debugging purposes
+]{geometry}
+
+\setlength{\parindent}{0pt} % Paragraph indentation
+\setlength{\parskip}{1em} % Vertical space between paragraphs
+
+\usepackage{graphicx} % Required for including images
+
+\usepackage{fancyhdr} % Required for customizing headers and footers
+
+\fancypagestyle{firstpage}{%
+	\fancyhf{} % Clear default headers/footers
+	\renewcommand{\headrulewidth}{0pt} % No header rule
+	\renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\fancypagestyle{subsequentpages}{%
+	\fancyhf{} % Clear default headers/footers
+	\renewcommand{\headrulewidth}{1pt} % Header rule thickness
+	\renewcommand{\footrulewidth}{1pt} % Footer rule thickness
+}
+
+\AtBeginDocument{\thispagestyle{firstpage}} % Use the first page headers/footers style on the first page
+\pagestyle{subsequentpages} % Use the subsequent pages headers/footers style on subsequent pages
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	FIRST PAGE HEADER
+%----------------------------------------------------------------------------------------
+
+% \includegraphics[width=0.35\textwidth]{logo.pdf} % Logo
+
+\vspace{-1em} % Pull the rule closer to the logo
+
+\rule{\linewidth}{1pt} % Horizontal rule
+
+\bigskip\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\hfill
+\begin{tabular}{l @{}}
+	\today \bigskip\\ % Date
+	Greg Sherman \\
+	11B Maple Avenue North \\ % Address
+	Mississauga, Ontario, L5H 2R9\\
+	Phone: (647) 382-2727 \\
+	Email: greg.sherman@mail.utoronto.ca
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING
+%----------------------------------------------------------------------------------------
+
+\begin{tabular}{@{} l}
+	\hrname \\
+	%\hrposition \\
+    \compname \\
+	\comploc
+\end{tabular}
+
+\bigskip % Vertical whitespace
+
+\hrintro
+
+\bigskip % Vertical whitespace
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+I am excited to apply for the position of \posname\ as advertised on the University of Toronto PEY job board. It is a great opportunity for \poslen\ of crucial, real-world experience of industry software development for any student!
+
+Having just begun my career of software development, I've managed to gain some good, insightful experience about the development process. My previous internship position at TD Bank Group as a software engineer thrusted me straight into the Agile development process where I became familiar with new tools such as Alteryx, Jira, and Confluence quite quickly. Using my Python and theory knowledge, I was able to make a noticeable impact on the workflow, lowering runtimes of large programs and utilizing the Sharepoint API to remove lengthy manual processes. With my impact on that team, I like to acknowledge the team's impact on me, giving me ample time and opportunity to ask questions and receive feedback on my work. The great atmosphere of mentorship can never be overstated.
+
+Learning new tools and frameworks is very appealing, especially when working in environments that have a goal of improving people's lives and experiences. When building a basic web server in C, despite the fact that Tim Berners-Lee did it 30 years ago, I realized first-hand what it feels like to improve lives. To me, \compname\ provides that opportunity in a much larger scale. \complive 
+
+I am positive that my strive for positive impacts, desire for knowledge, and experiences highlighted here and in my resume makes me and ideal candidate for the \posname\ position at \compname.
+
+\bigskip % Vertical whitespace
+
+Sincerely yours,
+
+\vspace{50pt} % Vertical whitespace
+
+Greg Sherman
+
+\end{document}
