@@ -27,7 +27,7 @@ L5C1S2
 https://www.linkedin.com/in/simon-chen-sc/
 ```
 ```
-https://github.com/simonchenwastaken/
+https://github.com/chen-simon/
 ```
 
 #### Employment
