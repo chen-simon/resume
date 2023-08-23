@@ -31,12 +31,28 @@ https://github.com/chen-simon/
 ```
 
 #### Employment
+
+AMD
+```
+AMD
+```
+```
+Software Engineering Intern GPU
+```
+```
+• Analyzed and debugged BSoD (Blue Screen of Death) crash dumps from Windows Insider Program users
+using WinDBG, identifying critical errors to the C++ GPU driver code, resulting in up to 10,000+ global 
+decreases in GPU driver related crashes for each failure type identified.
+• Developed a crash dump parsing tool using Python, effectively collecting and analyzing essential data from 
+10,000+ crash dumps per minor driver release to improve driver stability and performance.
+```
+
 Verto
 ```
 Verto Health
 ```
 ```
-Junior Full-Stack Software Developer (Infrastructure)
+Software Engineering Intern
 ```
 ```
 • Saved Verto over $10,000+ per year in licensing costs by developing an in-house integrated PDF form wizard system using Vue, Ruby on Rails, and a modified version of Mozilla’s open-source pdf.js project. 
@@ -49,7 +65,7 @@ Precisely
 Precisely
 ```
 ```
-Software Developer Quality Management Intern
+Software Engineering QA Intern
 ```
 ```
 • Integrated automated testing into the Elastic stack by using a Python Gitlab workflow to convert Junit, Nunit, and TestNG tests into useable Elasticsearch documents.
